@@ -1,11 +1,15 @@
 <template>
   <div>
-    <h3>当前最新的count值为：</h3>
+    <h3>当前最新的count值为：{{count}}</h3>
   </div>
 </template>
 
 <script lang="js">
+import {mapState} from 'vuex'
 export default {
-  name: "subtraction"
+  name: "subtraction",
+  computed:{
+    ...mapState(['count'])
+  }
 }
 </script>
