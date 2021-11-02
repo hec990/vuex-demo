@@ -20,7 +20,7 @@ import Subtraction from './components/Subtraction'
 
 <style>
  button {
-   width: 40px;
+   width: 60px;
    height: 25px;
  }
 </style>
