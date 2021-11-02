@@ -17,3 +17,10 @@ import Subtraction from './components/Subtraction'
    }
  }
 </script>
+
+<style>
+ button {
+   width: 40px;
+   height: 25px;
+ }
+</style>
